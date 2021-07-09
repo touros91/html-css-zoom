@@ -10,12 +10,13 @@
 body {
     color: #C8CFCE;
     font-family: 'Lato', sans-serif;
+    font-size: 10px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height: 35px;
     background-color: #1b1b1b;
 }
 
@@ -24,13 +25,12 @@ header div {
 }
 
 main {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 35px - 40px);
     display: flex;
     background-color: #1b1b1b;
 }
 
 /* header  */
-
 .padding-4 {
     padding: 4px;
 }
@@ -61,17 +61,20 @@ main {
 
 .col-left {
     justify-content: flex-start;
+    align-items: center;
 }
 
 .col-right {
     justify-content: flex-end;
+    align-items: center;
 }
 
 .col-center {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-items: flex-start;
+
 }
 
 /* frecce colonne laterali  */
@@ -79,7 +82,6 @@ main {
     width: 50px; 
     background-color: #1c1c1c;
     text-align: center;
-    align-self: center;
     font-size: 10px;
     color: grey;
     padding: 5px;
@@ -95,16 +97,16 @@ main {
 
 /* partecipanti videochiamata colonna centrale  */
 .partecipante {
-    width: calc(20% - 4px);
-    height: 20%;
-    margin: 2px;
+    width: calc(20% - 2px);
+    height: 100px;
+    margin: 1px;
     position: relative;
 }
 
 .partecipante img {
     width: 100%;
     height: 100%;
-    object-fit:cover;
+    object-fit: cover;
     border-radius: 5px;
 }
 
@@ -112,7 +114,6 @@ main {
     position: absolute;
     left: 2px;
     bottom: 2px;
-    font-size: 10px;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     padding: 1px 5px;
@@ -120,4 +121,27 @@ main {
 
 .nome a {
     color: red;
+}
+
+footer {
+    background-color: #202224;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+
+footer{
+    font-size: 10px;
+}
+
+footer i {
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+footer div {
+    display: inline-block;
+    margin: 2px 10px;
 }
