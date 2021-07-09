@@ -4,3 +4,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    color: #C8CFCE;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #1b1b1b;
+}
+
+header div {
+    display: inline-block;
+}
+
+.padding-4 {
+    padding: 4px;
+}
+
+.shield, .recording{
+    background-color: black; 
+}
+
+.shield {
+    color:green;
+    padding: 5px;
+}
+
+.recording-icon {
+    color: red;
+}
+
+.view-bg {
+    background-color: #212223;
+}
+
+
+
