@@ -24,9 +24,9 @@ header div {
 }
 
 main {
-    height: 100vh;
-    background-color: rosybrown;
+    height: calc(100vh - 50px);
     display: flex;
+    background-color: #1b1b1b;
 }
 
 /* header  */
@@ -52,6 +52,7 @@ main {
     background-color: #212223;
 }
 
+/* main  */
 .col-left, .col-right {
     width: 10%;
     color: #2db8ff;
@@ -68,9 +69,12 @@ main {
 
 .col-center {
     width: 80%;
-    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
+/* frecce colonne laterali  */
 .arrows {
     width: 50px; 
     background-color: #1c1c1c;
@@ -89,4 +93,17 @@ main {
     color: #2db8ff;
 }
 
+/* partecipanti videochiamata colonna centrale  */
+.partecipante {
+    width: calc(20% - 4px);
+    height: 20%;
+    margin: 2px;
 
+}
+
+.partecipante img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 5px;
+}
