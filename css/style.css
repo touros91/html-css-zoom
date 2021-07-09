@@ -5,6 +5,8 @@
     box-sizing: border-box;
 }
 
+/* common  */
+
 body {
     color: #C8CFCE;
     font-family: 'Lato', sans-serif;
@@ -20,6 +22,14 @@ header {
 header div {
     display: inline-block;
 }
+
+main {
+    height: 100vh;
+    background-color: rosybrown;
+    display: flex;
+}
+
+/* header  */
 
 .padding-4 {
     padding: 4px;
@@ -42,5 +52,41 @@ header div {
     background-color: #212223;
 }
 
+.col-left, .col-right {
+    width: 10%;
+    color: #2db8ff;
+    display: flex;
+}
+
+.col-left {
+    justify-content: flex-start;
+}
+
+.col-right {
+    justify-content: flex-end;
+}
+
+.col-center {
+    width: 80%;
+    background-color: red;
+}
+
+.arrows {
+    width: 50px; 
+    background-color: #1c1c1c;
+    text-align: center;
+    align-self: center;
+    font-size: 10px;
+    color: grey;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px black;
+}
+
+.arrow-style {
+    font-size: 60px; 
+    color: #2db8ff;
+}
 
 
