@@ -10,13 +10,13 @@
 body {
     color: #C8CFCE;
     font-family: 'Lato', sans-serif;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    height: 35px;
+    height: 30px;
     background-color: #1b1b1b;
 }
 
@@ -25,7 +25,7 @@ header div {
 }
 
 main {
-    height: calc(100vh - 35px - 40px);
+    height: calc(100vh - 30px - 40px);
     display: flex;
     background-color: #1b1b1b;
 }
@@ -50,6 +50,11 @@ main {
 
 .view-bg {
     background-color: #212223;
+}
+
+.view-bg a {
+    text-decoration: none;
+    color: #C8CFCE;
 }
 
 /* main  */
@@ -128,7 +133,7 @@ footer {
     height: 40px;
     display: flex;
     justify-content: space-between;
-    padding: 4px;
+    padding: 10px;
 }
 
 footer i {
@@ -138,7 +143,23 @@ footer i {
 
 footer div {
     display: inline-block;
-    margin: 2px 10px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.angle-icon {
+    position: relative;
+}
+.angle {
+    position: absolute;
+    top: 0;
+    right: -18px;
+}
+
+#angle-camera {
+    position: absolute;
+    top: 0;
+    right: -2px;
 }
 
 .end {
@@ -152,3 +173,47 @@ footer div {
     text-align: center;
     border-radius: 5px;
 }
+
+.share {
+    color: #24d959;
+    position: relative;
+}
+
+.share-screen {
+    width: 18px;
+    height: 13px;
+    background-color: #24d959;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.share .angle {
+    right: 0px;
+}
+.partecipants {
+    position: relative;
+}
+.partecipants-34 {
+    font-size: 10px;
+    color: #C8CFCE;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+}
+
+.reactions {
+    position: relative;
+}
+
+.reactions-plus {
+    font-size: 10px;
+    color: #C8CFCE;
+    position: absolute;
+    top: -5px;
+    left: 35px;
+}
+
+
+
