@@ -18,6 +18,7 @@ header {
     justify-content: space-between;
     height: 30px;
     background-color: #1b1b1b;
+    padding: 5px;
 }
 
 header div {
@@ -50,6 +51,8 @@ main {
 
 .view-bg {
     background-color: #212223;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .view-bg a {
@@ -78,7 +81,7 @@ main {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-content: center;
 }
 
 /* frecce colonne laterali  */
@@ -141,7 +144,7 @@ footer {
     height: 40px;
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 7px;
 }
 
 footer a {
@@ -185,6 +188,7 @@ footer div {
     padding: 4px;
     text-align: center;
     border-radius: 5px;
+    margin-top: 4px;
 }
 
 .share {
@@ -206,9 +210,11 @@ footer div {
 .share .angle {
     right: 0px;
 }
+
 .partecipants {
     position: relative;
 }
+
 .partecipants-34 {
     color: #C8CFCE;
     position: absolute;
