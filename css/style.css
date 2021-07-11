@@ -67,6 +67,10 @@ main {
     display: flex;
 }
 
+.col-left a, .col-right a {
+    text-decoration: none;
+}
+
 .col-left {
     justify-content: flex-start;
     align-items: center;
@@ -95,12 +99,14 @@ main {
     margin: 10px;
     border: 1px solid black;
     box-shadow: 1px 1px 1px black;
+    background-image: linear-gradient(#202020, #050505);
 }
 
 .arrow-style {
     font-size: 60px; 
     color: #2db8ff;
 }
+
 
 /* partecipanti videochiamata colonna centrale  */
 .partecipante {
