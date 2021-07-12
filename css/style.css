@@ -150,6 +150,7 @@ footer {
     height: 40px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 7px;
 }
 
@@ -185,16 +186,12 @@ footer div {
 }
 
 .end {
-    display: inline-block;
-    text-decoration: none;
+    border: none;
     color: white;
-    width: 50px;
-    height: 20px;
     background-color: red;
-    padding: 4px;
+    padding: 2px 12px;
     text-align: center;
     border-radius: 5px;
-    margin-top: 4px;
 }
 
 .share {
